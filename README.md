@@ -1,16 +1,91 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and interactive Finance Dashboard built with **React** and **Tailwind CSS**.  
+This project allows users to track financial activity, explore transactions, visualize spending patterns, and simulate role-based UI behavior.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🏠 Dashboard
 
-## React Compiler
+<img width="1919" height="965" alt="Screenshot 2026-04-03 234634" src="https://github.com/user-attachments/assets/a5c6aaa7-c48a-4c5a-80fa-51cb3cc6a557" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+### Admin
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1918" height="960" alt="Screenshot 2026-04-03 234649" src="https://github.com/user-attachments/assets/facb04a7-5fb7-46b0-897d-d2f6d8321908" />
+
+
+### DarkMode
+
+<img width="1919" height="964" alt="Screenshot 2026-04-03 234705" src="https://github.com/user-attachments/assets/bf014ff8-d7c4-4d7d-9d13-bde4511ee2ad" />
+
+
+
+## Table of Contents
+
+- [Demo](#demo)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Project Structure](#project-structure)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Future Enhancements](#future-enhancements)  
+
+---
+
+## Features
+
+- **Dashboard Overview**: Total Balance, Income, Expenses summary cards  
+- **Charts & Visualizations**:
+  - Pie chart for spending by category  
+  - Bar chart for monthly balance trend  
+- **Transactions Section**:  
+  - Search/filter by category  
+  - Role-based actions (Admin can edit/delete, Viewer can only view)  
+- **Insights**: Highest spending category, monthly comparison, balance change  
+- **Dark Mode** toggle  
+- **Responsive Design**: Works on mobile, tablet, and desktop  
+
+---
+
+## Tech Stack
+
+- **Frontend**: React, Tailwind CSS  
+- **State Management**: React Context API  
+- **Charts**: Recharts  
+- **Mock Data**: Static JSON (`data/mockdata.js`)  
+
+---
+
+## Project Structure
+
+```text
+finance-dashboard/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   ├── index.css
+│   │
+│   ├── context/
+│   │   └── AppContext.jsx
+│   │
+│   ├── data/
+│   │   └── mockdata.js
+│   │
+│   ├── pages/
+│   │   └── Dashboard.jsx
+│   │
+│   └── components/
+│       ├── DarkModeToggle.jsx
+│       ├── RoleSwitcher.jsx
+│       ├── SummaryCard.jsx
+│       ├── TransactionTable.jsx
+│       ├── Charts.jsx
+│       └── Insights.jsx
+│
+└── package.json
