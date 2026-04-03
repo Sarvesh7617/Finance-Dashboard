@@ -88,7 +88,7 @@ finance-dashboard/
 │       └── Insights.jsx
 │
 └── package.json
-
+```
 
 
 ## Installation
