@@ -23,7 +23,6 @@ This project allows users to track financial activity, explore transactions, vis
 
 ## Table of Contents
 
-- [Demo](#demo)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Project Structure](#project-structure)  
@@ -92,7 +91,7 @@ finance-dashboard/
 
 
 
-## 🛠️ Installation
+## Installation
 
 To run this project locally:
 
