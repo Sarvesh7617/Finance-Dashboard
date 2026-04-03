@@ -89,3 +89,53 @@ finance-dashboard/
 │       └── Insights.jsx
 │
 └── package.json
+
+
+
+## 🛠️ Installation
+
+To run this project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Sarvesh7617/Finance-Dashboard.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd finance-dashboard
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+6. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+Open http://localhost:5173 to view in the browser.
+
+---
+
+
+## Usage
+- Toggle Dark Mode using the switch
+- Switch roles between Viewer and Admin
+- Admin can edit/delete transactions
+- Explore charts and insights to understand spending patterns
+
+
+
+## Future Enhancements
+
+- Connect to real backend/API for persistent data
+- CSV/JSON export of transactions
+- Advanced filtering and grouping by category or month
+- Smooth animations and transitions
+- Authentication & full role-based access control
